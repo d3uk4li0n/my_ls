@@ -1,7 +1,7 @@
 CC=gcc
+CFLAGS+=-Wall -Wextra -Werror -g3 -fsanitize=address
 DEPS+=include/my_ls.h include/utils.h include/sort.h
 OBJ+=src/my_ls.o
-CFLAGS+=-Wall -Wextra -Werror -g3 -fsanitize=address
 TARGET=my_ls
 
 all: $(TARGET)
