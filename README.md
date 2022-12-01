@@ -27,6 +27,7 @@ you can clean up after usage with "make fclean"
 
 ## Synopsis  
 ./my_ls [-at] [dir(s) or file(s) ...]  
+
 examples:  
 ./my_ls -a .  
 ./my_ls -t /tmp  
