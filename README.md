@@ -1,7 +1,7 @@
 ## Task  
 A reimplementation of the unix command -- ls and 2 of its flags:  
--a lists hidden files and directories, that is, files and dirs beginning with a dot (.)      
--t sort by time modified (most recently modified first) before sorting the operands by lexicographical order  
+  -a lists hidden files and directories, that is, files and dirs beginning with a dot (.)      
+  -t sort by time modified (most recently modified first) before sorting the operands by lexicographical order  
 
 ## Requirements  
 Your code must be compiled with -Wall -Wextra -Werror -g3 -fsanitize=address  
