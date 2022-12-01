@@ -20,7 +20,6 @@ typedef struct sort{
     struct sort *next;
 }order; 
 
-
 #ifndef MY_LS_C
 #define MY_LS_C
 
@@ -42,7 +41,6 @@ void modtime_sort(order **, int);
 void free_list(order *);
 
 #endif
-
 
 #ifndef UTILS_H
 #define UTILS_H
