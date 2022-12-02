@@ -14,6 +14,6 @@ clean:
 	rm -f src/*.o
 
 fclean: clean 
-	rm -rf $(TARGET)
+	rm $(TARGET)
 
 re: fclean all
